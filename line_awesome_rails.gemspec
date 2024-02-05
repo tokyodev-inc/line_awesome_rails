@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Paul McMahon"]
   spec.email = ["paul@tokyodev.com"]
 
-  spec.summary = "Use Line Awesome's SVGs via Rails' asset pipeline."
+  spec.summary = "Use Line Awesome's SVGs in Rails."
   spec.homepage = "https://github.com/tokyodev-inc/line_awesome_rails"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
@@ -29,7 +29,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_dependency "rails"
+  spec.add_dependency "inline_svg"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html

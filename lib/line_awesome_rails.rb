@@ -5,5 +5,6 @@ require_relative "line_awesome_rails/engine"
 
 module LineAwesomeRails
   class Error < StandardError; end
-  # Your code goes here...
+
+  autoload :AssetFinder, 'line_awesome_rails/asset_finder'
 end
